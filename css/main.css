@@ -1,0 +1,84 @@
+main {
+    padding: 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*=========================== CONTEUDO MENU ===========================*/
+
+main .conteudoMenu {
+    display: flex;
+    flex-direction: column
+}
+
+main .conteudoMenu h2 {
+    margin-bottom: 2%;
+    font-size: 2.2em;
+}
+
+main .conteudoMenu .texto {
+    margin-bottom: 10%;
+}
+
+main .conteudoMenu .texto p {
+    width: 75%;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+/*=============================== CARDS ================================*/
+main .tecnologias .class-container {
+    display: flex;
+    align-items: center;
+}
+
+main .tecnologias .class-container .card {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 8px;
+    margin-right: 0.9em;
+    margin-left: 0.9em;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+main .tecnologias .class-container .card img {
+    width: 80%;
+}
+
+main .tecnologias .class-container .card:hover {
+    box-shadow: 0px 0px 8px #00e0ff;
+}
+
+/*=============================== FIGURE ===============================*/
+main figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main figure img {
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+
+    cursor: pointer;
+    margin-bottom: 6%;
+    border: 1px #00e0ff solid;
+    transition: 0.2s ease-in-out;
+}
+
+main figure img:hover {
+    box-shadow: 0px 0px 6px #00e0ff;
+}
